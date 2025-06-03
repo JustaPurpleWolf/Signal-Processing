@@ -1,0 +1,20 @@
+[[Model]]
+    Model(absorption_p)
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 121
+    # data points      = 1800
+    # variables        = 3
+    chi-square         = 43.4465063
+    reduced chi-square = 0.02417724
+    Akaike info crit   = -6697.22070
+    Bayesian info crit = -6680.73408
+    R-squared          = 0.85926176
+[[Variables]]
+    T:   356.150001 +/- 12.0652018 (3.39%) (init = 357.15)
+    N:   4.3144e+17 +/- 3.7502e+16 (8.69%) (init = 1.602637e+18)
+    x0: -31452158.1 +/- 3006665.44 (9.56%) (init = 0)
+[[Correlations]] (unreported correlations are < 0.100)
+    C(T, N)  = +0.9495
+    C(T, x0) = -0.2839
+    C(N, x0) = -0.2697
